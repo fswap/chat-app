@@ -2,10 +2,6 @@
     socket.on('connect',function (){
         console.log('connected to server');
 
-        socket.emit('createMessage',{
-            from:'pandey',
-            text:'wapas kab aa rahe ho'
-        });
     });
     socket.on('disconnect',function (){
         console.log('Disconnected from server');
