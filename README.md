@@ -1,6 +1,8 @@
 # chat-app
-It is chat app which can be used to chat in a group
+This is a basic Chat Application Tool which is used to have an interactive group chat among colleagues/ friends and college officials.
+It is being implemented using Socket.io
 
-open in terminal.
-Go in server folder
-write 'node sever' in terminal to run the app
+## Steps:
+Open in Terminal.
+Go in Server Folder
+Write 'node sever' in terminal to run the app
