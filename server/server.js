@@ -3,8 +3,7 @@ const http = require('http');
 const express = require('express');
 const socketIO = require('socket.io');
 
-var {
-    generateMessage,
+var { generateMessage,
     generateLocationMessage
 } = require('./utils/message');
 
@@ -12,6 +11,7 @@ const {isRealString}=require('./utils/validation');
 const {Users}=require('./utils/users');
 
 const publicpath = path.join(__dirname, '../public');
+const alpha = NULL;
 const port = process.env.PORT || 8000;
 
 var app = express();
